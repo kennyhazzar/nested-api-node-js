@@ -80,12 +80,6 @@ export class NestedService {
     return result;
   }
 
-  async getNestedDocumentByLevel(level: number) {
-    const result = await this.nestedModel.find({}, { $slice: level }).exec();
-
-    return result;
-  }
-
   async findAll() {
     return this.nestedModel.find().exec();
   }

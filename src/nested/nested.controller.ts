@@ -19,12 +19,12 @@ export class NestedController {
     return this.nestedService.addChildrenToObjectById(id, name);
   }
 
-  @Get('nested-all')
+  @Get('all')
   async getAllObjects() {
     return this.nestedService.findAll();
   }
 
-  @Get('test')
+  @Get('deep')
   async getNested(@Query('id') id: string) {
     return this.nestedService.updateNestedObjectsById(id);
   }
