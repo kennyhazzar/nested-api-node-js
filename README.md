@@ -1,6 +1,6 @@
 ## Description
 
-Hello! This is my first test task:) In this case, you have the opportunity to read the application documentation at [https://nested-objects.herokuapp.com/v1/docs](https://nested-objects.herokuapp.com/v1/docs)
+Hello! This is my first test task:) In this case, you have the opportunity to read the application documentation at [https://nested-objects.herokuapp.com/docs](https://nested-objects.herokuapp.com/docs)
 
 ## Installation
 
